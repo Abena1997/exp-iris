@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.expresspay.guestcheck_inapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:6:5-78
+12-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <application
+14-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:8:5-29:19
+15        android:name="com.expresspay.access_control.RealmApplication"
+15-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:9:9-41
+16        android:allowBackup="true"
+16-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\Alice Asante\.gradle\caches\transforms-2\files-2.1\9cc8c25da8969c2bb9a5398a874fe6be\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@drawable/icon"
+19-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:11:9-38
+20        android:label="@string/app_name"
+20-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@drawable/icon"
+21-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:13:9-43
+22        android:supportsRtl="true"
+22-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:14:9-35
+23        android:theme="@style/SplashScreen"
+23-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:15:9-44
+24        android:usesCleartextTraffic="true" >
+24-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:16:9-44
+25        <activity
+25-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:18:9-19:57
+26            android:name="com.expresspay.access_control.CheckInActivity"
+26-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:18:19-50
+27            android:windowSoftInputMode="adjustResize" />
+27-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:19:13-55
+28        <activity android:name="com.expresspay.access_control.MainActivity" >
+28-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:22:9-28:20
+28-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:22:19-47
+29            <intent-filter>
+29-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:23:13-27:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:24:17-69
+30-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:24:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:26:17-77
+32-->C:\Users\Alice Asante\Documents\GitHub\visitor_check_in\app\src\main\AndroidManifest.xml:26:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <provider
+36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alice Asante\.gradle\caches\transforms-2\files-2.1\34ee09eefbb942c08d7f626150424977\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+37            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+37-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alice Asante\.gradle\caches\transforms-2\files-2.1\34ee09eefbb942c08d7f626150424977\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+38            android:authorities="com.expresspay.guestcheck_inapplication.lifecycle-process"
+38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alice Asante\.gradle\caches\transforms-2\files-2.1\34ee09eefbb942c08d7f626150424977\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+39            android:exported="false"
+39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alice Asante\.gradle\caches\transforms-2\files-2.1\34ee09eefbb942c08d7f626150424977\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+40            android:multiprocess="true" />
+40-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alice Asante\.gradle\caches\transforms-2\files-2.1\34ee09eefbb942c08d7f626150424977\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+41    </application>
+42
+43</manifest>
